@@ -1,0 +1,19 @@
+version: "3"
+services:
+    web:
+        ports: 
+            - "80:80"
+        environment: 
+            PRODUCTION: 'true'
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+    backend:
+        build: 
+            context: ./backend
+            dockerfile: Dockerfile
+    db:
+        image: mcr.microsoft.com/mssql/server:2019-latest
+        
+        

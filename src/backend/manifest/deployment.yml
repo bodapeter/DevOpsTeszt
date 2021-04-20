@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helloword.api-deployment
+spec:
+  selector:
+    matchLabels:
+      app: hellowordapi-pod
+  template:
+    metadata:
+      labels:
+        app: hellowordapi-pod
+    spec:
+      containers:
+      - name: hellowordapi-container
+        image: helloword.api
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
