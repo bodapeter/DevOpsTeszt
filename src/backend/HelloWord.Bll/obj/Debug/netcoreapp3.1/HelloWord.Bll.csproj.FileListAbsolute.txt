@@ -1,0 +1,9 @@
+C:\Users\laszlo.tamas\sources\repos\DevOps teszt feladat\src\backend\HelloWord\HelloWord.Bll\bin\Debug\netcoreapp3.1\HelloWord.Bll.deps.json
+C:\Users\laszlo.tamas\sources\repos\DevOps teszt feladat\src\backend\HelloWord\HelloWord.Bll\bin\Debug\netcoreapp3.1\HelloWord.Bll.dll
+C:\Users\laszlo.tamas\sources\repos\DevOps teszt feladat\src\backend\HelloWord\HelloWord.Bll\bin\Debug\netcoreapp3.1\HelloWord.Bll.pdb
+C:\Users\laszlo.tamas\sources\repos\DevOps teszt feladat\src\backend\HelloWord\HelloWord.Bll\obj\Debug\netcoreapp3.1\HelloWord.Bll.csprojAssemblyReference.cache
+C:\Users\laszlo.tamas\sources\repos\DevOps teszt feladat\src\backend\HelloWord\HelloWord.Bll\obj\Debug\netcoreapp3.1\HelloWord.Bll.AssemblyInfoInputs.cache
+C:\Users\laszlo.tamas\sources\repos\DevOps teszt feladat\src\backend\HelloWord\HelloWord.Bll\obj\Debug\netcoreapp3.1\HelloWord.Bll.AssemblyInfo.cs
+C:\Users\laszlo.tamas\sources\repos\DevOps teszt feladat\src\backend\HelloWord\HelloWord.Bll\obj\Debug\netcoreapp3.1\HelloWord.Bll.csproj.CoreCompileInputs.cache
+C:\Users\laszlo.tamas\sources\repos\DevOps teszt feladat\src\backend\HelloWord\HelloWord.Bll\obj\Debug\netcoreapp3.1\HelloWord.Bll.dll
+C:\Users\laszlo.tamas\sources\repos\DevOps teszt feladat\src\backend\HelloWord\HelloWord.Bll\obj\Debug\netcoreapp3.1\HelloWord.Bll.pdb

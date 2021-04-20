@@ -1,0 +1,29 @@
+version: "3"
+services:
+    web:
+        image: nginx
+        ports: 
+            - "80:80"
+        restart: always
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        ports: 
+            - "5000:80"
+    backend:
+        build: 
+            context: ./backend
+            dockerfile: Dockerfile
+        ports: 
+            - "3000:80"
+        environment:
+            ASPNETCORE_URLS: "http://+"
+    db:
+        image: mcr.microsoft.com/mssql/server:2019-latest
+        environment:
+            user: root
+            SA_PASSWORD: "sa_PASSWORD!"
+            ACCEPT_EULA: "Y"           
+        
+        
